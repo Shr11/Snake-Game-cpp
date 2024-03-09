@@ -17,9 +17,16 @@ const char DIR_RIGHT = 'R';
 
 int consoleWidth , consoleHeight;
 
+void initScreen()
+{
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    
+}
+
+
 int main()
 {
-25
+
 
 
 return 0;
